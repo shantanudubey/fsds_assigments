@@ -1,0 +1,64 @@
+1. In the below elements which of them are values or an expression? eg:- values can be
+integer or string and expressions will be mathematical operators.
+Answer: 
+Values: 'hello', -87.8, 6
+Expressions: *, -, /, +
+
+
+2. What is the difference between string and variable?
+Answer: 
+A string is a data type and a variable is a container for storing a data type.
+
+
+3. Describe three different data types.
+Answer: 
+int: contains whole numbers both positive or negative. E.g.  99, 10000, 2
+float: contains numbers with decimals both positive and negative. E.g. 99.456, 599.99, 2.0
+string: contains a sequence of characters/literals enclosed withion single or double quotes. E.g. '2', "this is a string", 'A'
+
+
+4. What is an expression made up of? What do all expressions do?
+Answer: 
+An expression is a combination of operators and operands which can be variables or literals which produce an output value.
+E.g. x + 2 * y + 10, here x and y are variables, 2 and 10 are liteals and * is the operator.
+If the value of x is 2 and y is 1, the putput of this expression is 14.
+
+
+5. This assignment statements, like spam = 10. What is the difference between an
+expression and a statement?
+Answer: 
+An expression is expected to produce an output value but the assignment statement just assigns the value to the variable without any evaluation/computation based on any condition.
+
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+Answer: 22
+
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+Answer: 
+'spamspamspam'
+'spamspamspam'
+
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Answer: Identifiers/variable names cannot start with a number.
+
+
+9. What three functions can be used to get the integer, floating-point number, or string
+version of a value?
+Answer: 
+int(value)
+float(value)
+str(value)
+
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+Answer: String and integer can't be concatenated/added.
+Solution : 'I have eaten ' + str(99) + ' burritos.'
+
