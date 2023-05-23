@@ -1,0 +1,56 @@
+
+1.What are the two values of the Boolean data type? How do you write them?
+
+
+1.What are the two values of the Boolean data type? How do you write them?
+Answer: True and False
+
+
+2. What are the three different types of Boolean operators?
+
+
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean
+values for the operator and what it evaluate ).
+
+
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5)
+not (5 > 4)
+(5 > 4) or (3 == 5)
+not ((5 > 4) or (3 == 5))
+(True and True) and (True == False)
+(not False) or (not True)
+
+
+5. What are the six comparison operators?
+Answer: <, >, ==, <=, >= !=
+
+
+6. How do you tell the difference between the equal to and assignment operators?Describe a
+condition and when you would use one.
+Answer: 
+equal : '=='
+assignment: '=' 
+
+if biometric_entry == True:
+    attendance_status = "Present"
+else:
+    attendance_status = "Absent"
+
+
+7. Identify the three blocks in this code:
+spam = 0
+
+Block 1
+if spam == 10:
+print('eggs')
+
+Block 2
+if spam > 5:
+print('bacon')
+
+Block 3
+else:
+print('ham')
+print('spam')
+print('spam')
