@@ -1,1 +1,0 @@
-A simple text file to create the folder structure since github doesn't track empty folders(rightly so).
