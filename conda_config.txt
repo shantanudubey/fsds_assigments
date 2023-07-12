@@ -1,0 +1,13 @@
+Configuring an environment outside of the anaconda directory : 
+
+- Launch        : Anaconda Prompt
+- Navigate to   : project folder >> fsds/projects
+- Type          : code . || This launches VSCode from that folder
+- Open Terminal : New Terminal >> it should start with (base)
+- Type          : conda create -p venv python==3.9
+- Type          : conda config --set env_prompt '({name})'
+                    This will show the env-name only instead of the full path
+                    e.g. venv instead of c:\Users\shan\works\fsds\projects\venv
+- Type          : conda activate ./venv
+- Execute       : python <filename>.py >> to run any file
+
