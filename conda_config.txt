@@ -12,4 +12,6 @@ Configuring an environment outside of the anaconda directory :
 - View          : You should now see the prompt as (venv) instead of (base)
 - Execute       : python <filename>.py >> to run any file
 
-File submitted to fsds/conda_config.txt
+
+
+Refs : https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands
