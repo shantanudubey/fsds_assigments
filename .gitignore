@@ -1,5 +1,1 @@
-
-python/classes/
-projects/
-python/.vscode/
-python/assignments/basic/assignment_py.code-workspace
+*.code-workspace
